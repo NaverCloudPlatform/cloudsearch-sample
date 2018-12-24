@@ -27,7 +27,7 @@ API 를 이용하는 경우 아래 JSON 으로 요청하시기 바랍니다.
         "docProperties": [
           {
             "type": "string",
-            "name": "dp_type"
+            "name": "dp_name"
           }
         ],
         "name": "name"
@@ -36,7 +36,7 @@ API 를 이용하는 경우 아래 JSON 으로 요청하시기 바랍니다.
         "docProperties": [
           {
             "type": "string",
-            "name": "dp_type"
+            "name": "dp_topic"
           }
         ],
         "name": "topic"
@@ -45,7 +45,7 @@ API 를 이용하는 경우 아래 JSON 으로 요청하시기 바랍니다.
         "docProperties": [
           {
             "type": "string",
-            "name": "dp_type"
+            "name": "dp_url"
           }
         ],
         "name": "url"
