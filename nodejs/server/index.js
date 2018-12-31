@@ -2,9 +2,11 @@ const express = require('express');
 const proxy = require('http-proxy-middleware');
 const path = require('path');
 const crypto = require('crypto');
+const dotenv = require('dotenv');
 
 const app = express();
 const port = process.env.PORT || 8081;
+dotenv.config();
 
 function makeSignature(method, url, timestamp, accessKey, secretKey) {
   const hmac = crypto.createHmac('sha256', secretKey);
@@ -23,9 +25,9 @@ const options = {
     '^/api': '/CloudSearch/real/v1'
   },
   onProxyReq : (proxyReq, req, res) => {
-    const primaryKey = {primaryKey};
-    const accessKey = {accessKey};
-    const secretKey = {secretKey};
+    const primaryKey = process.env.PRIMARY_KEY;
+    const accessKey = process.env.ACCESS_KEY;
+    const secretKey = process.env.SECRET_KEY;
     const timestamp = new Date().getTime();
 
     proxyReq.setHeader('x-ncp-apigw-timestamp', timestamp);
