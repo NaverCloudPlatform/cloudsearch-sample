@@ -1,6 +1,6 @@
 # Cloud Search Sample
 
-This sample project demonstrates how to use NCP CloudSearch service with [create-react-app](https://github.com/facebookincubator/create-react-app) and [spring-boot](https://github.com/spring-projects/spring-boot).
+This sample project demonstrates how to use [NCP Cloud Search](https://www.ncloud.com/product/analytics/cloudSearch) service with [create-react-app](https://github.com/facebookincubator/create-react-app) and [spring-boot](https://github.com/spring-projects/spring-boot).
 
 ### How to run
 
