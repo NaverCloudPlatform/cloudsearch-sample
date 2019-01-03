@@ -1,18 +1,20 @@
 # Cloud Search Sample
 
-### Install
+This sample project demonstrates how to use NCP CloudSearch service with [create-react-app](https://github.com/facebookincubator/create-react-app).
+
+### How to run
 
 For build in production environment:
 
 ```
-yarn prod:server
+npm run prod:server
 ```
 
 For Front-end develop:
 
 ```
-yarn server
-yarn start
+npm run server
+npm run start
 ```
 
 ### Usage
