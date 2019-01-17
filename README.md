@@ -1,6 +1,8 @@
 # Cloud Search 쉬운 시작 가이드
 
-API 를 이용하는 경우 아래 JSON 으로 요청하시기 바랍니다.
+이 예제 프로젝트는 NCP Cloud Search 쉬운 시작 가이드에서 활용되는 예제로 [create-react-app](https://github.com/facebookincubator/create-react-app) 과 [spring-boot](https://github.com/spring-projects/spring-boot) 로 작성했습니다.
+
+API를 바로 이용하는 경우 아래 JSON 으로 요청하시기 바랍니다.
 
 [문서샘플 - sample.json](sample.json)
 
