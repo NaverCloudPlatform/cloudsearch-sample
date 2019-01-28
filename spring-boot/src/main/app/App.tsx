@@ -1,42 +1,45 @@
-import * as React from 'react';
-import { default as axios } from 'axios';
-import withStyles from '@material-ui/core/styles/withStyles';
+import * as React from "react";
+import { default as axios } from "axios";
+import withStyles from "@material-ui/core/styles/withStyles";
 import {
   AppBar,
   Grid,
   IconButton,
   Paper,
-  Table, TableBody, TableCell,
-  TableHead, TableRow,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
   TextField,
   Toolbar,
   Tooltip,
   Typography
-} from '@material-ui/core';
-import SearchIcon from '@material-ui/icons/Search';
-import RefreshIcon from '@material-ui/icons/Refresh';
+} from "@material-ui/core";
+import SearchIcon from "@material-ui/icons/Search";
+import RefreshIcon from "@material-ui/icons/Refresh";
 
 const styles = (theme: any) => ({
   paper: {
     maxWidth: 936,
-    margin: 'auto',
-    overflow: 'hidden',
+    margin: "auto",
+    overflow: "hidden"
   },
   searchBar: {
-    borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
+    borderBottom: "1px solid rgba(0, 0, 0, 0.12)"
   },
   searchInput: {
-    fontSize: theme.typography.fontSize,
+    fontSize: theme.typography.fontSize
   },
   block: {
-    display: 'block',
+    display: "block"
   },
   addUser: {
-    marginRight: theme.spacing.unit,
+    marginRight: theme.spacing.unit
   },
   contentWrapper: {
-    margin: '40px 16px',
-  },
+    margin: "40px 16px"
+  }
 });
 
 interface Props {
@@ -48,10 +51,10 @@ interface States {
 }
 
 export class AppComp extends React.Component<Props, States> {
-  constructor (props: Props) {
+  constructor(props: Props) {
     super(props);
     this.state = {
-      keyword: '',
+      keyword: "",
       result: []
     };
     this.handleSearch = this.handleSearch.bind(this);
@@ -59,7 +62,7 @@ export class AppComp extends React.Component<Props, States> {
   }
 
   handleQueryKeyPress = (e: any) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       this.handleSearch();
     }
   };
@@ -67,23 +70,27 @@ export class AppComp extends React.Component<Props, States> {
   handleChange = (e: any) => {
     this.setState({
       keyword: e.target.value
-    })
+    });
   };
 
   handleSearch() {
     const searchQuery = {
       search: {
-        name_key: {
-          main: {query: this.state.keyword}
+        index_name: {
+          main: { query: this.state.keyword }
         }
       }
     };
-    axios.post('/api/domain/free-pdf-books/document/search', searchQuery)
+    axios
+      .post("/api/domain/free-pdf-books/document/search", searchQuery)
       .then((response: any) => {
         if (response.data.result && response.data.result.items) {
-          this.setState({
-            result: response.data.result.items
-          }, () => console.log(this.state.result));
+          this.setState(
+            {
+              result: response.data.result.items
+            },
+            () => console.log(this.state.result)
+          );
         }
       })
       .catch((error: any) => {
@@ -92,13 +99,12 @@ export class AppComp extends React.Component<Props, States> {
         });
         console.log(error);
       })
-      .then(() => {
-      });
+      .then(() => {});
   }
 
   handleRefresh() {
     this.setState({
-      keyword: '',
+      keyword: "",
       result: []
     });
   }
@@ -107,11 +113,20 @@ export class AppComp extends React.Component<Props, States> {
     const { classes } = this.props;
     return (
       <Paper className={classes.paper}>
-        <AppBar className={classes.searchBar} position="static" color="default" elevation={0}>
+        <AppBar
+          className={classes.searchBar}
+          position="static"
+          color="default"
+          elevation={0}
+        >
           <Toolbar>
             <Grid container spacing={16} alignItems="center">
               <Grid item>
-                <SearchIcon className={classes.block} color="inherit" onClick={this.handleSearch} />
+                <SearchIcon
+                  className={classes.block}
+                  color="inherit"
+                  onClick={this.handleSearch}
+                />
               </Grid>
               <Grid item xs>
                 <TextField
@@ -129,7 +144,11 @@ export class AppComp extends React.Component<Props, States> {
               <Grid item>
                 <Tooltip title="Refresh">
                   <IconButton>
-                    <RefreshIcon className={classes.block} color="inherit" onClick={this.handleRefresh} />
+                    <RefreshIcon
+                      className={classes.block}
+                      color="inherit"
+                      onClick={this.handleRefresh}
+                    />
                   </IconButton>
                 </Tooltip>
               </Grid>
@@ -137,37 +156,40 @@ export class AppComp extends React.Component<Props, States> {
           </Toolbar>
         </AppBar>
         <div className={classes.contentWrapper}>
-          {
-            this.state.result.length === 0 && (<Typography color="textSecondary" align="center">
+          {this.state.result.length === 0 && (
+            <Typography color="textSecondary" align="center">
               No result
-            </Typography>)
-          }
-          {
-            this.state.result.length > 0 && (<Table className={classes.table}>
-                <TableHead>
-                  <TableRow>
-                    <TableCell>Topic</TableCell>
-                    <TableCell>Name</TableCell>
-                    <TableCell>Link</TableCell>
+            </Typography>
+          )}
+          {this.state.result.length > 0 && (
+            <Table className={classes.table}>
+              <TableHead>
+                <TableRow>
+                  <TableCell>Topic</TableCell>
+                  <TableCell>Name</TableCell>
+                  <TableCell>Link</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {this.state.result.map(row => (
+                  <TableRow key={row.name}>
+                    <TableCell>{row.topic}</TableCell>
+                    <TableCell>{row.name}</TableCell>
+                    <TableCell>
+                      <a
+                        href={`https://github.com/iMarcoGovea/books/blob/master/${
+                          row.url
+                        }`}
+                        target="_blank"
+                      >
+                        {row.name}
+                      </a>
+                    </TableCell>
                   </TableRow>
-                </TableHead>
-                <TableBody>
-                  {
-                    this.state.result.map(row => (
-                      <TableRow key={row.name}>
-                        <TableCell>{row.topic}</TableCell>
-                        <TableCell>{row.name}</TableCell>
-                        <TableCell>
-                          <a href={`https://github.com/iMarcoGovea/books/blob/master/${row.url}`} target="_blank">
-                            {row.name}
-                          </a>
-                        </TableCell>
-                      </TableRow>
-                    ))
-                  }
-                </TableBody>
-              </Table>)
-          }
+                ))}
+              </TableBody>
+            </Table>
+          )}
         </div>
       </Paper>
     );
