@@ -43,13 +43,11 @@ public class AuthFilter extends ZuulFilter {
     public Object run() {
         RequestContext ctx = RequestContext.getCurrentContext();
 
-        String primaryKey = env.getProperty("ncp.primaryKey");
         String accessKey = env.getProperty("ncp.accessKey");
         String secretKey = env.getProperty("ncp.secretKey");
         String timestamp = String.valueOf(System.currentTimeMillis());
 
         ctx.addZuulRequestHeader("x-ncp-apigw-timestamp", timestamp);
-        ctx.addZuulRequestHeader("x-ncp-apigw-api-key", primaryKey);
         ctx.addZuulRequestHeader("x-ncp-iam-access-key", accessKey);
 
         try {

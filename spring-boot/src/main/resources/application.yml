@@ -1,19 +1,18 @@
 server:
-  port: 8081
+    port: 8081
 zuul:
-  routes:
-    search:
-      path: /api/**
-      url: https://cloudsearch.apigw.ntruss.com/CloudSearch/real/v1
+    routes:
+        search:
+            path: /api/**
+            url: https://cloudsearch.apigw.ntruss.com/CloudSearch/real/v1
 ncp:
-  primaryKey: {primaryKey}
-  accessKey: {accessKey}
-  secretKey: {secretKey}
+    accessKey: { accessKey }
+    secretKey: { secretKey }
 spring:
-  thymeleaf:
-    cache: false
-    check-template: true
-    check-template-location: true
-    enabled: true
-    prefix: classpath:/static/
-    suffix: .html
+    thymeleaf:
+        cache: false
+        check-template: true
+        check-template-location: true
+        enabled: true
+        prefix: classpath:/static/
+        suffix: .html
