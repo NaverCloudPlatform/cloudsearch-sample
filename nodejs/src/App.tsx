@@ -79,22 +79,22 @@ export class AppComp extends React.Component<Props, States> {
       }
     };
     axios.post('/api/domain/free-pdf-books/document/search', searchQuery)
-      .then((response: any) => {
-        if (response.data.result && response.data.result.items) {
+        .then((response: any) => {
+          if (response.data.result && response.data.result.items) {
+            this.setState({
+              result: response.data.result.items
+            }, () => console.log(this.state.result));
+          }
+        })
+        .catch((error: any) => {
           this.setState({
-            result: response.data.result.items
-          }, () => console.log(this.state.result));
-        }
-      })
-      .catch((error: any) => {
-        this.setState({
-          result: []
+            result: []
+          });
+          console.log(error);
+        })
+        .then(() => {
+          // todo
         });
-        console.log(error);
-      })
-      .then(() => {
-        // todo
-      });
   }
 
   handleRefresh() {
@@ -107,70 +107,70 @@ export class AppComp extends React.Component<Props, States> {
   render() {
     const { classes } = this.props;
     return (
-      <Paper className={classes.paper}>
-        <AppBar className={classes.searchBar} position="static" color="default" elevation={0}>
-          <Toolbar>
-            <Grid container={true} spacing={16} alignItems="center">
-              <Grid item>
-                <SearchIcon className={classes.block} color="inherit" onClick={this.handleSearch} />
+        <Paper className={classes.paper}>
+          <AppBar className={classes.searchBar} position="static" color="default" elevation={0}>
+            <Toolbar>
+              <Grid container={true} alignItems="center">
+                <Grid item>
+                  <SearchIcon className={classes.block} color="inherit" onClick={this.handleSearch} />
+                </Grid>
+                <Grid item xs>
+                  <TextField
+                      fullWidth
+                      placeholder="Search by name"
+                      InputProps={{
+                        disableUnderline: true,
+                        className: classes.searchInput,
+                        onChange: this.handleChange,
+                        onKeyDown: this.handleQueryKeyPress,
+                        value: this.state.keyword
+                      }}
+                  />
+                </Grid>
+                <Grid item>
+                  <Tooltip title="Refresh">
+                    <IconButton>
+                      <RefreshIcon className={classes.block} color="inherit" onClick={this.handleRefresh} />
+                    </IconButton>
+                  </Tooltip>
+                </Grid>
               </Grid>
-              <Grid item xs>
-                <TextField
-                  fullWidth
-                  placeholder="Search by name"
-                  InputProps={{
-                    disableUnderline: true,
-                    className: classes.searchInput,
-                    onChange: this.handleChange,
-                    onKeyDown: this.handleQueryKeyPress,
-                    value: this.state.keyword
-                  }}
-                />
-              </Grid>
-              <Grid item>
-                <Tooltip title="Refresh">
-                  <IconButton>
-                    <RefreshIcon className={classes.block} color="inherit" onClick={this.handleRefresh} />
-                  </IconButton>
-                </Tooltip>
-              </Grid>
-            </Grid>
-          </Toolbar>
-        </AppBar>
-        <div className={classes.contentWrapper}>
-          {
-            this.state.result.length === 0 && (<Typography color="textSecondary" align="center">
-              No result
-            </Typography>)
-          }
-          {
-            this.state.result.length > 0 && (<Table className={classes.table}>
-              <TableHead>
-                <TableRow>
-                  <TableCell>Topic</TableCell>
-                  <TableCell>Name</TableCell>
-                  <TableCell>Link</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {
-                  this.state.result.map(row => (
-                    <TableRow key={row.name}>
-                      <TableCell>{row.topic}</TableCell>
-                      <TableCell>{row.name}</TableCell>
-                      <TableCell>
-                        <a href={`https://github.com/iMarcoGovea/books/blob/master/${row.url}`} target="_blank">
-                          {row.name}
-                        </a>
-                      </TableCell>
-                    </TableRow>
-                  ))
-                }
-              </TableBody>
-            </Table>)
-          }
-        </div>
-      </Paper>
+            </Toolbar>
+          </AppBar>
+          <div className={classes.contentWrapper}>
+            {
+              this.state.result.length === 0 && (<Typography color="textSecondary" align="center">
+                No result
+              </Typography>)
+            }
+            {
+              this.state.result.length > 0 && (<Table className={classes.table}>
+                <TableHead>
+                  <TableRow>
+                    <TableCell>Topic</TableCell>
+                    <TableCell>Name</TableCell>
+                    <TableCell>Link</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {
+                    this.state.result.map(row => (
+                        <TableRow key={row.name}>
+                          <TableCell>{row.topic}</TableCell>
+                          <TableCell>{row.name}</TableCell>
+                          <TableCell>
+                            <a href={`https://github.com/iMarcoGovea/books/blob/master/${row.url}`} target="_blank">
+                              {row.name}
+                            </a>
+                          </TableCell>
+                        </TableRow>
+                    ))
+                  }
+                </TableBody>
+              </Table>)
+            }
+          </div>
+        </Paper>
     );
   }
 }
