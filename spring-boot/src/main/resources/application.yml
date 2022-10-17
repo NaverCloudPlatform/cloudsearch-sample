@@ -1,10 +1,5 @@
 server:
     port: 8081
-zuul:
-    routes:
-        search:
-            path: /api/**
-            url: https://cloudsearch.apigw.ntruss.com/CloudSearch/real/v1
 ncp:
     accessKey: { accessKey }
     secretKey: { secretKey }
