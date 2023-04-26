@@ -1,0 +1,1210 @@
+{
+  "requests": [
+    {
+      "type": "insert",
+      "key": "Agile Estimating and Planning.pdf",
+      "content": {
+        "topic": "agile-software-development",
+        "name": "Agile Estimating and Planning.pdf",
+        "url": "agile-software-development/agile-estimating-and-planning.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Art of Agile Development.pdf",
+      "content": {
+        "topic": "agile-software-development",
+        "name": "Art of Agile Development.pdf",
+        "url": "agile-software-development/art-of-agile-development.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Continuous Delivery.pdf",
+      "content": {
+        "topic": "agile-software-development",
+        "name": "Continuous Delivery.pdf",
+        "url": "agile-software-development/continuous-delivery.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Become Ninja Angular2.pdf",
+      "content": {
+        "topic": "angular2",
+        "name": "Become Ninja Angular2.pdf",
+        "url": "angular2/become-ninja-angular2.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Angular 2 Test Driven Development 2nd.pdf",
+      "content": {
+        "topic": "angular2",
+        "name": "Angular 2 Test Driven Development 2nd.pdf",
+        "url": "angular2/angular-2-test-driven-development-2nd.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Designing Evolvable Web APIs with ASP.NET.pdf",
+      "content": {
+        "topic": "apis",
+        "name": "Designing Evolvable Web APIs with ASP.NET.pdf",
+        "url": "apis/Designing%20Evolvable%20Web%20APIs%20with%20ASP.NET.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Java Concurrency in Practice.pdf",
+      "content": {
+        "topic": "concurrency",
+        "name": "Java Concurrency in Practice.pdf",
+        "url": "concurrency/Java%20Concurrency%20in%20Practice.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Concurrent Programming on Windows.pdf",
+      "content": {
+        "topic": "concurrency",
+        "name": "Concurrent Programming on Windows.pdf",
+        "url": "concurrency/concurrent_programming_on_windows.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro Asynchronous Programming with .NET.pdf",
+      "content": {
+        "topic": "concurrency",
+        "name": "Pro Asynchronous Programming with .NET.pdf",
+        "url": "concurrency/Pro%20Asynchronous%20Programming%20with%20.NET.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Devops 2.1 Toolkit Deploying Monitoring.pdf",
+      "content": {
+        "topic": "dev-ops/docker-swarm",
+        "name": "Devops 2.1 Toolkit Deploying Monitoring.pdf",
+        "url": "dev-ops/docker-swarm/devops-2-1-toolkit-deploying-monitoring.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Api Driven DevOps.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Api Driven DevOps.pdf",
+        "url": "dev-ops/docker/api-driven-devops.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "DevOps 2.0 Toolkit.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "DevOps 2.0 Toolkit.pdf",
+        "url": "dev-ops/docker/devops-2-0-toolkit.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Docker Bootcamp.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Docker Bootcamp.pdf",
+        "url": "dev-ops/docker/docker-bootcamp.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Docker Cookbook Solutions Examples.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Docker Cookbook Solutions Examples.pdf",
+        "url": "dev-ops/docker/docker-cookbook-solutions-examples.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Docker In Action.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Docker In Action.pdf",
+        "url": "dev-ops/docker/docker-in-action.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Docker in Practice.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Docker in Practice.pdf",
+        "url": "dev-ops/docker/docker-in-practice.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Docker Orchestration.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Docker Orchestration.pdf",
+        "url": "dev-ops/docker/docker-orchestration.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Native Docker Clustering Swarm.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Native Docker Clustering Swarm.pdf",
+        "url": "dev-ops/docker/native-docker-clustering-swarm.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro Docker.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Pro Docker.pdf",
+        "url": "dev-ops/docker/pro-docker.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "The Docker and Container Ecosystem.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "The Docker and Container Ecosystem.pdf",
+        "url": "dev-ops/docker/the-docker-and-container-ecosystem.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "The Docker-book.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "The Docker-book.pdf",
+        "url": "dev-ops/docker/the-docker-book.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Using Docker.pdf",
+      "content": {
+        "topic": "dev-ops/docker",
+        "name": "Using Docker.pdf",
+        "url": "dev-ops/docker/using-docker.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Jenkins The Definitive Guide.pdf",
+      "content": {
+        "topic": "dev-ops/jenkins",
+        "name": "Jenkins The Definitive Guide.pdf",
+        "url": "dev-ops/jenkins/jenkins-the-definitive-guide.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Learning Continuous Integration Jenkins.epub",
+      "content": {
+        "topic": "dev-ops/jenkins",
+        "name": "Learning Continuous Integration Jenkins.epub",
+        "url": "dev-ops/jenkins/learning-continuous-integration-jenkins.epub"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro Continuous Delivery Jenkins 2.pdf",
+      "content": {
+        "topic": "dev-ops/jenkins",
+        "name": "Pro Continuous Delivery Jenkins 2.pdf",
+        "url": "dev-ops/jenkins/pro-continuous-delivery-jenkins-2.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Deploying and scaling Kubernetes with Rancher.pdf",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "Deploying and scaling Kubernetes with Rancher.pdf",
+        "url": "dev-ops/kubernetes/deploying-and-scaling-k8s-with-rancher.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "DevOps Kubernetes.pdf",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "DevOps Kubernetes.pdf",
+        "url": "dev-ops/kubernetes/devops-kubernetes.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Getting Started kubernetes 2nd.pdf",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "Getting Started kubernetes 2nd.pdf",
+        "url": "dev-ops/kubernetes/getting-started-kubernetes-2nd.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Kubernetes Patterns.pdf",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "Kubernetes Patterns.pdf",
+        "url": "dev-ops/kubernetes/k8s-patterns.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Kubernetes Microservices with Docker.pdf",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "Kubernetes Microservices with Docker.pdf",
+        "url": "dev-ops/kubernetes/kubernetes-microservices-with-docker.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Kubernetes Up & Running",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "Kubernetes Up & Running",
+        "url": "dev-ops/kubernetes/kubernetes-up-running.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Mastering kubernetes.pdf",
+      "content": {
+        "topic": "dev-ops/k8s",
+        "name": "Mastering kubernetes.pdf",
+        "url": "dev-ops/kubernetes/mastering-kubernetes.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Terraform Up and Running.pdf",
+      "content": {
+        "topic": "dev-ops/terraform",
+        "name": "Terraform Up and Running.pdf",
+        "url": "dev-ops/terraform/terraform-up-and-running.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Getting Started Terraform 2nd.epub",
+      "content": {
+        "topic": "dev-ops/terraform",
+        "name": "Getting Started Terraform 2nd.epub",
+        "url": "dev-ops/terraform/getting-started-terraform-2nd.epub"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Infrastructure as code IAC Cookbook.pdf",
+      "content": {
+        "topic": "dev-ops/terraform",
+        "name": "Infrastructure as code IAC Cookbook.pdf",
+        "url": "dev-ops/terraform/infrastructure-as-code-iac-cookbook.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Elasticsearch.pdf",
+      "content": {
+        "topic": "elasticsearch",
+        "name": "Elasticsearch.pdf",
+        "url": "elasticsearch/elasticsearch.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Express in Action.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Express in Action.pdf",
+        "url": "express/express-in-action.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Mastering Web Application Development with Express.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Mastering Web Application Development with Express.pdf",
+        "url": "express/Mastering%20Web%20Application%20Development%20with%20Express.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful Web API Design with Node.js.pdf",
+      "content": {
+        "topic": "express",
+        "name": "RESTful Web API Design with Node.js.pdf",
+        "url": "express/RESTful%20Web%20API%20Design%20with%20Node.js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Learning Single-page Web Application Development.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Learning Single-page Web Application Development.pdf",
+        "url": "express/Learning%20Single-page%20Web%20Application%20Development.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Web Development with Node and Express.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Web Development with Node and Express.pdf",
+        "url": "express/Web%20Development%20with%20Node%20and%20Express.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro Express.js.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Pro Express.js.pdf",
+        "url": "express/Pro%20Express.js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Beginning Amazon Web Services with Node.js.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Beginning Amazon Web Services with Node.js.pdf",
+        "url": "express/Beginning%20Amazon%20Web%20Services%20with%20Node.js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro REST API Development with Node.js.pdf",
+      "content": {
+        "topic": "express",
+        "name": "Pro REST API Development with Node.js.pdf",
+        "url": "express/Pro%20REST%20API%20Development%20with%20Node.js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "proGit.pdf",
+      "content": {
+        "topic": "git",
+        "name": "proGit.pdf",
+        "url": "git/proGit.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Aanti Text Book Go.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Aanti Text Book Go.pdf",
+        "url": "golang/antitextbookGo.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go Building Web Applications.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go Building Web Applications.pdf",
+        "url": "golang/go-building-web-applications.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go Design Patterns.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go Design Patterns.pdf",
+        "url": "golang/go-design-patterns.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go In Action.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go In Action.pdf",
+        "url": "golang/go-in-action.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go In Practice.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go In Practice.pdf",
+        "url": "golang/go-in-practice.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go Programming Blueprints 2nd.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go Programming Blueprints 2nd.pdf",
+        "url": "golang/go-programming-blueprints-2nd.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go Recipes.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go Recipes.pdf",
+        "url": "golang/go-recipes.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go Web Programming.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go Web Programming.pdf",
+        "url": "golang/go-web-programming.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Go.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Go.pdf",
+        "url": "golang/go.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Introducing Go.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "Introducing Go.pdf",
+        "url": "golang/introducing-go.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "The Go Programming Language.pdf",
+      "content": {
+        "topic": "golang",
+        "name": "The Go Programming Language.pdf",
+        "url": "golang/the-go-programming-language.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Data Structures and Algorithms.pdf",
+      "content": {
+        "topic": "java-script",
+        "name": "Data Structures and Algorithms.pdf",
+        "url": "java-script/data-structures-and-algorithms.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Effective JavaScript.pdf",
+      "content": {
+        "topic": "java-script",
+        "name": "Effective JavaScript.pdf",
+        "url": "java-script/effective-js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Expert JavaScript.pdf",
+      "content": {
+        "topic": "java-script",
+        "name": "Expert JavaScript.pdf",
+        "url": "java-script/expert-javascript.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "JavaScript The Good Parts.pdf",
+      "content": {
+        "topic": "java-script",
+        "name": "JavaScript The Good Parts.pdf",
+        "url": "java-script/javascript-the-good-parts.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Third Party JavaScript.pdf",
+      "content": {
+        "topic": "java-script",
+        "name": "Third Party JavaScript.pdf",
+        "url": "java-script/third-party-js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Linux Pocket.pdf",
+      "content": {
+        "topic": "linux",
+        "name": "Linux Pocket.pdf",
+        "url": "linux/Linux%20Pocket.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Linux Bible.pdf",
+      "content": {
+        "topic": "linux",
+        "name": "Linux Bible.pdf",
+        "url": "linux/Linux%20Bible.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "introduction-machine-learning-python.pdf",
+      "content": {
+        "topic": "machine learning",
+        "name": "introduction-machine-learning-python.pdf",
+        "url": "machine%20learning/introduction-machine-learning-python.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "microservices-building-scalable-software.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "microservices-building-scalable-software.pdf",
+        "url": "microservices/microservices-building-scalable-software.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "developing-microservices-node-js.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "developing-microservices-node-js.pdf",
+        "url": "microservices/developing-microservices-node-js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "building-microservices-designing-fine-grained-systems.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "building-microservices-designing-fine-grained-systems.pdf",
+        "url": "microservices/building-microservices-designing-fine-grained-systems.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "microservices-from-day-one.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "microservices-from-day-one.pdf",
+        "url": "microservices/microservices-from-day-one.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "mesos-in-action.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "mesos-in-action.pdf",
+        "url": "microservices/mesos-in-action.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "microservices-deployment-cookbook.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "microservices-deployment-cookbook.pdf",
+        "url": "microservices/microservices-deployment-cookbook.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "microservices-docker-microsoft-azure.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "microservices-docker-microsoft-azure.pdf",
+        "url": "microservices/microservices-docker-microsoft-azure.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "devops-web-development.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "devops-web-development.pdf",
+        "url": "microservices/devops-web-development.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "building-microservices-go.epub",
+      "content": {
+        "topic": "microservices",
+        "name": "building-microservices-go.epub",
+        "url": "microservices/building-microservices-go.epub"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "advanced-microservices.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "advanced-microservices.pdf",
+        "url": "microservices/advanced-microservices.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "microservices-flexible-software-architecture.pdf",
+      "content": {
+        "topic": "microservices",
+        "name": "microservices-flexible-software-architecture.pdf",
+        "url": "microservices/microservices-flexible-software-architecture.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Node.js Design Patterns.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Node.js Design Patterns.pdf",
+        "url": "nodejs/Node.js%20Design%20Patterns.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Practical Node.js.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Practical Node.js.pdf",
+        "url": "nodejs/Practical%20Node.js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Using Node.js for UI Testing.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Using Node.js for UI Testing.pdf",
+        "url": "nodejs/Using%20Node.js%20for%20UI%20Testing.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Professional Node.js.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Professional Node.js.pdf",
+        "url": "nodejs/Professional%20Node.js.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Node- Up and Running.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Node- Up and Running.pdf",
+        "url": "nodejs/Node-%20Up%20and%20Running.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Node.js the Right Way.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Node.js the Right Way.pdf",
+        "url": "nodejs/Node.js%20the%20Right%20Way.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Node.js Recipes.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Node.js Recipes.pdf",
+        "url": "nodejs/Node.js%20Recipes.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro Node.js for Developers.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Pro Node.js for Developers.pdf",
+        "url": "nodejs/Pro%20Node.js%20for%20Developers.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Node.js By Example.pdf",
+      "content": {
+        "topic": "nodejs",
+        "name": "Node.js By Example.pdf",
+        "url": "nodejs/Node.js%20By%20Example.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Pro React.pdf",
+      "content": {
+        "topic": "react",
+        "name": "Pro React.pdf",
+        "url": "react/Pro%20React.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful Web APIs.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "RESTful Web APIs.pdf",
+        "url": "rest/RESTful%20Web%20APIs.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful_Web_Services.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "RESTful_Web_Services.pdf",
+        "url": "rest/RESTful_Web_Services.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "rest-advanced-research-topics-and-practical-applications.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "rest-advanced-research-topics-and-practical-applications.pdf",
+        "url": "rest/rest-advanced-research-topics-and-practical-applications.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful Java Web Services Security.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "RESTful Java Web Services Security.pdf",
+        "url": "rest/RESTful%20Java%20Web%20Services%20Security.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful Web Services with Dropwizard.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "RESTful Web Services with Dropwizard.pdf",
+        "url": "rest/RESTful%20Web%20Services%20with%20Dropwizard.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "build-apis-you-wont-hate.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "build-apis-you-wont-hate.pdf",
+        "url": "rest/build-apis-you-wont-hate.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "OReilly.REST.API.Design.Rulebook.Oct.2011.ISBN.1449310508.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "OReilly.REST.API.Design.Rulebook.Oct.2011.ISBN.1449310508.pdf",
+        "url": "rest/OReilly.REST.API.Design.Rulebook.Oct.2011.ISBN.1449310508.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "service_design_patterns.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "service_design_patterns.pdf",
+        "url": "rest/service_design_patterns.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "HAL.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "HAL.pdf",
+        "url": "rest/HAL.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful Java Patterns and Best Practices.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "RESTful Java Patterns and Best Practices.pdf",
+        "url": "rest/RESTful%20Java%20Patterns%20and%20Best%20Practices.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "RESTful Java with JAX-RS 2.0, 2nd Edition.pdf",
+      "content": {
+        "topic": "rest",
+        "name": "RESTful Java with JAX-RS 2.0, 2nd Edition.pdf",
+        "url": "rest/RESTful%20Java%20with%20JAX-RS%202.0,%202nd%20Edition.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "the-lean-mindset-ask-the-right-questions.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "the-lean-mindset-ask-the-right-questions.pdf",
+        "url": "startups/the-lean-mindset-ask-the-right-questions.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "UX for Leaan Startups.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "UX for Leaan Startups.pdf",
+        "url": "startups/UX%20for%20Leaan%20Startups.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Lean Customer Development.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "Lean Customer Development.pdf",
+        "url": "startups/Lean%20Customer%20Development.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "steve_jobs_walter_isaacson.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "steve_jobs_walter_isaacson.pdf",
+        "url": "startups/steve_jobs_walter_isaacson.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Lean Enterprise.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "Lean Enterprise.pdf",
+        "url": "startups/Lean%20Enterprise.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "FRIED_Jason_-_Rework.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "FRIED_Jason_-_Rework.pdf",
+        "url": "startups/FRIED_Jason_-_Rework.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "running-lean-iterate-from-plan-a-to-a-plan-that-works-lean-series.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "running-lean-iterate-from-plan-a-to-a-plan-that-works-lean-series.pdf",
+        "url": "startups/running-lean-iterate-from-plan-a-to-a-plan-that-works-lean-series.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "university-startups-and-spin-offs-guide-for-entrepreneurs-in-academia.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "university-startups-and-spin-offs-guide-for-entrepreneurs-in-academia.pdf",
+        "url": "startups/university-startups-and-spin-offs-guide-for-entrepreneurs-in-academia.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Hackers and Painters.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "Hackers and Painters.pdf",
+        "url": "startups/Hackers%20and%20Painters.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "ELS2015.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "ELS2015.pdf",
+        "url": "startups/ELS2015.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "The Startup Owner s Manual_ The Step-by-Step Guide for Building a Great Company - Blank, Steve.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "The Startup Owner s Manual_ The Step-by-Step Guide for Building a Great Company - Blank, Steve.pdf",
+        "url": "startups/The%20Startup%20Owner%20s%20Manual_%20The%20Step-by-Step%20Guide%20for%20Building%20a%20Great%20Company%20-%20Blank,%20Steve.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Eric Ries - The Lean Startup.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "Eric Ries - The Lean Startup.pdf",
+        "url": "startups/Eric%20Ries%20-%20The%20Lean%20Startup.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "gocrosscampus",
+      "content": {
+        "topic": "startups",
+        "name": "gocrosscampus",
+        "url": "startups/gocrosscampus"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Lean UX.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "Lean UX.pdf",
+        "url": "startups/Lean%20UX.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "zero-one.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "zero-one.pdf",
+        "url": "startups/zero-one.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "entrepreneur revolution.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "entrepreneur revolution.pdf",
+        "url": "startups/entrepreneur%20revolution.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "why-startups-fail-and-how-yours-can-succeed.pdf",
+      "content": {
+        "topic": "startups",
+        "name": "why-startups-fail-and-how-yours-can-succeed.pdf",
+        "url": "startups/why-startups-fail-and-how-yours-can-succeed.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Beautiful Code.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "Beautiful Code.pdf",
+        "url": "software-development/Beautiful%20Code.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Refactoring  Improving the Design of Existing Code.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "Refactoring  Improving the Design of Existing Code.pdf",
+        "url": "software-development/Refactoring%20%20Improving%20the%20Design%20of%20Existing%20Code.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "clean-coder-conduct-professional-programmers.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "clean-coder-conduct-professional-programmers.pdf",
+        "url": "software-development/clean-coder-conduct-professional-programmers.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Code Complete.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "Code Complete.pdf",
+        "url": "software-development/Code%20Complete.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Implementing.DDD.epub",
+      "content": {
+        "topic": "software-development",
+        "name": "Implementing.DDD.epub",
+        "url": "software-development/Implementing.DDD.epub"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "domain-driven-design-distilled.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "domain-driven-design-distilled.pdf",
+        "url": "software-development/domain-driven-design-distilled.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Clean Code.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "Clean Code.pdf",
+        "url": "software-development/Clean%20Code.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "The Pragmatic Programmer.pdf",
+      "content": {
+        "topic": "software-development",
+        "name": "The Pragmatic Programmer.pdf",
+        "url": "software-development/The%20Pragmatic%20Programmer.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Design Driven Testing.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "Design Driven Testing.pdf",
+        "url": "tdd%20+%20bdd/Design%20Driven%20Testing.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "the-art-of-unit-testing.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "the-art-of-unit-testing.pdf",
+        "url": "tdd%20+%20bdd/the-art-of-unit-testing.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "BDD.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "BDD.pdf",
+        "url": "tdd%20+%20bdd/BDD.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "scala-test-driven-development.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "scala-test-driven-development.pdf",
+        "url": "tdd%20+%20bdd/scala-test-driven-development.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Test Driven.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "Test Driven.pdf",
+        "url": "tdd%20+%20bdd/Test%20Driven.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "bdd-in-action.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "bdd-in-action.pdf",
+        "url": "tdd%20+%20bdd/bdd-in-action.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "quality-code-software-testing-principles-practices-and-patterns.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "quality-code-software-testing-principles-practices-and-patterns.pdf",
+        "url": "tdd%20+%20bdd/quality-code-software-testing-principles-practices-and-patterns.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Test-Driven JavaScript Development.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "Test-Driven JavaScript Development.pdf",
+        "url": "tdd%20+%20bdd/Test-Driven%20JavaScript%20Development.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "Test-Driven JavaScript Development 2.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "Test-Driven JavaScript Development 2.pdf",
+        "url": "tdd%20+%20bdd/Test-Driven%20JavaScript%20Development%202.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "developer-testing.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "developer-testing.pdf",
+        "url": "tdd%20+%20bdd/developer-testing.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "tdd-ebook-sample.pdf",
+      "content": {
+        "topic": "tdd + bdd",
+        "name": "tdd-ebook-sample.pdf",
+        "url": "tdd%20+%20bdd/tdd-ebook-sample.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "tmux-taster-2014.pdf",
+      "content": {
+        "topic": "vim+tmux",
+        "name": "tmux-taster-2014.pdf",
+        "url": "vim+tmux/tmux-taster-2014.pdf"
+      }
+    },
+    {
+      "type": "insert",
+      "key": "pro-vim-2014.pdf",
+      "content": {
+        "topic": "vim+tmux",
+        "name": "pro-vim-2014.pdf",
+        "url": "vim+tmux/pro-vim-2014.pdf"
+      }
+    }
+  ]
+}

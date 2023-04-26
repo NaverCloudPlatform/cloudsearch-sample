@@ -1,0 +1,13 @@
+server:
+    port: 8081
+ncp:
+    accessKey: { accessKey }
+    secretKey: { secretKey }
+spring:
+    thymeleaf:
+        cache: false
+        check-template: true
+        check-template-location: true
+        enabled: true
+        prefix: classpath:/static/
+        suffix: .html
